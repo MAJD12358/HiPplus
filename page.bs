@@ -1,0 +1,78 @@
+// page.bs
+
+// Importing necessary libraries
+import "StandardLibrary.hip+";
+
+// &Design
++
+    Colors: {
+        Primary# : "#3498db",
+        Secondary# : "#2ecc71",
+        Background# : "#ecf0f1",
+        Text# : "#333"
+    },
+    Typography: {
+        FontFamily# : "Roboto",
+        FontSize# : {
+            Heading1# : "2rem",
+            Heading2# : "1.5rem",
+            Body# : "1rem"
+        }
+    },
+    Alignment# : {
+        Vertical# : ["Top", "Center", "Bottom"],
+        Horizontal# : ["Left", "Center", "Right"]
+    },
+    Body# : {
+        Background# : "#fff",
+        Margin# : "0",
+        Padding# : "10px",
+        Border# : "1px solid #ddd"
+    },
+    Head# : {
+        Background# : "#eee",
+        Margin# : "0",
+        Padding# : "10px",
+        Border# : "1px solid #ddd"
+    },
+    Effects# : {
+        Shadows# : "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)",
+        Transitions# : "all 0.3s ease-in-out"
+    }
+///
+
+// &Text#
++
+    Description#: "Welcome to MyPage!",
+    Website#: "https://mypage.example"
+///
+
+// &UIElements#
++
+    Title#: "MyPage",
+    Header#: "Welcome to MyPage!",
+    Button#: ["Primary", "Secondary", "Floating"],
+    Image#: "mypage-logo.png"
+///
+
+// &Layout#
++
+    GridSystem#: "12-column",
+    Containers#: ["Fixed", "Fluid"]
+///
+
+// &Media#
++
+    Images#: ["jpg", "png", "gif"],
+    Videos#: ["mp4", "avi", "mkv"],
+    Files#: ["zip", "apk", "ABB"]
+///
+
+// Function definition with type annotations
++function$ welcomeMessage(name#: string +): string {
+    return "Hello, " + name# + "! Welcome to MyPage!";
+}
+
+// Main program
++let$ message#: string = welcomeMessage("John#" +);
++print$ message#;
