@@ -1,0 +1,71 @@
+// hipplus-lang.hip+
+
+// &Design
++
+    Colors
+-
+    Primary# : "#3498db",
+    Secondary# : "#2ecc71",
+    Background# : "#ecf0f1",
+    Text# : "#333"
++
+    Primary# : "#FF0000",
+    Secondary# : "#800080",
+    Background# : "#000",
+    Text# : "#FFF"
+///
+
+// &Design
++
+    FontFamily# : "Arial, sans-serif",
+    FontSize# : {
+        Heading1# : "2rem",
+        Heading2# : "1.5rem",
+        Body# : "1rem"
+    },
+    Shadows# : "box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1)",
+    Transitions# : "all 0.3s ease-in-out"
+///
+
+// &Media
++
+    Images#: ["jpg", "png", "gif"],
+    Videos#: ["mp4", "avi", "mkv"],
+    Files#: ["zip", "apk", "ABB"]
+///
+
+// &Design
++
+    ID# : "hipplus-lang",
+    Position# : {
+        Top# : "0",
+        Left# : "0",
+        Width# : "100%",
+        Height# : "100%"
+    },
+    ZIndex# : "1000"
+///
+
+// Function definitions with type annotations
++function$ calculateFactorial(n#: int +): int {
+    if (n# <= 1 +) {
+        return 1;
+    } +else$ {
+        return n# * calculateFactorial(n# - 1 +);
+    }
+}
+
++async$ function fetchData(url#: string +): Promise<any> {
+    let response = await fetch(url# +);
+    let data = await response.json +();
+    return data;
+}
+
+// Example of advanced computation
++function$ advancedCompute(input#: int, callback#: (result#: int) => void +) {
+    // Perform complex computation
+    let result = input# * 2;
+
+    // Invoke callback function with the result
+    callback#(result);
+}
