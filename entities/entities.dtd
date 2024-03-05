@@ -1,4 +1,4 @@
-<!-- entities.dtd -->
+ <!-- entities.dtd -->
 
 <!ELEMENT hipplus (Name, Design, Text, Functions*)>
 
