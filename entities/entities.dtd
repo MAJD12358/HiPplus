@@ -1,0 +1,46 @@
+<!-- entities.dtd -->
+
+<!ELEMENT hipplus (Name, Design, Text, Functions*)>
+
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Design (Paradigm, MemoryManagement, ConcurrencyModel, Colors, Typography, Alignment, Body, Head, Effects, ID, AdvancedFeatures, Modifiers)>
+<!ELEMENT Text (Description, Website)>
+<!ELEMENT Functions (Function*)>
+
+<!ELEMENT Paradigm (#PCDATA)>
+<!ELEMENT MemoryManagement (#PCDATA)>
+<!ELEMENT ConcurrencyModel (#PCDATA)>
+<!ELEMENT Colors (Primary, Secondary, Background, Text)>
+<!ELEMENT Typography (FontFamily, FontSize)>
+<!ELEMENT Alignment (Vertical, Horizontal)>
+<!ELEMENT Body (Background, Margin, Padding, Border)>
+<!ELEMENT Head (Background, Margin, Padding, Border)>
+<!ELEMENT Effects (Shadows, Transitions)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT AdvancedFeatures (Feature*)>
+<!ELEMENT Modifiers (Modifier*)>
+
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+
+<!ELEMENT Function (Name, Type, Parameters, Body)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Parameters (Parameter*)>
+<!ELEMENT Parameter (Name, Type)>
+<!ELEMENT Body (#PCDATA)>
+
+<!ELEMENT Primary (#PCDATA)>
+<!ELEMENT Secondary (#PCDATA)>
+<!ELEMENT Background (#PCDATA)>
+<!ELEMENT Text (#PCDATA)>
+<!ELEMENT FontFamily (#PCDATA)>
+<!ELEMENT FontSize (Heading1, Heading2, Body)>
+<!ELEMENT Heading1 (#PCDATA)>
+<!ELEMENT Heading2 (#PCDATA)>
+<!ELEMENT Body (#PCDATA)>
+<!ELEMENT Vertical (Top, Center, Bottom)>
+<!ELEMENT Horizontal (Left, Center, Right)>
+<!ELEMENT Shadows (#PCDATA)>
+<!ELEMENT Transitions (#PCDATA)>
+<!ELEMENT Feature (#PCDATA)>
+<!ELEMENT Modifier (#PCDATA)>
