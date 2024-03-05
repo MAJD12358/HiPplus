@@ -1,0 +1,16 @@
+# .github/languages.yml
+
+- name: "Hip+"
+  color: "#FF0000"
+  secondary_color: "#800080"
+  logo: "url/to/hipplus-logo.png"
+  extensions:
+    - ".hip+"
+  interpreters:
+    - "hipplus-interpreter"
+  ace_mode: "text"
+  tm_scope: "source.hipplus"
+  wrap: true
+  aliases:
+    - "hipplus"
+  group: "Other"
