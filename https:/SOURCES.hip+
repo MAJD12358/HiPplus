@@ -47,7 +47,7 @@ import "StandardLibrary.hip+";
     Website#: "https://hippluslang.org"
 ///
 
-// Function definitions with type annotations
+// Function definition with type annotations
 +function$ calculateFactorial(n#: int +): int {
     if (n# <= 1 +) {
         return 1;
@@ -56,18 +56,16 @@ import "StandardLibrary.hip+";
     }
 }
 
+// Async function example
 +async$ function fetchData(url#: string +): Promise<any> {
     let response = await fetch(url# +);
     let data = await response.json +();
     return data;
 }
 
-// Example of advanced computation
-+function$ advancedCompute(input#: int, callback#: (result#: int) => void +) {
-    // Perform complex computation
-    let result = input# * 2;
+// Example usage
++let$ result#: int = calculateFactorial(5 +);
++print$("Factorial of 5: " + result#);
 
-    // Invoke callback function with the result
-    callback#(result);
-}
-
++let$ apiData#: any = fetchData("https://api.example.com/data" +);
++print$("Fetched data: " + apiData#);
