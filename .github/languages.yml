@@ -5,7 +5,7 @@
   secondary_color: "#8000FF"
   logo: "url/to/hipplus-logo.png"
   extensions:
-    - ".hip"
+    - ".hipplus"
   interpreters:
     - "hipplus-interpreter"
   ace_mode: "code"
