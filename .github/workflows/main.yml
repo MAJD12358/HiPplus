@@ -1,0 +1,20 @@
+name: Publish and Build hip+
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Build and Publish hip+
+      run: |
+        # Your build commands here
+        # Example: npm install -g hipplus-cli && hipplus build
+        
