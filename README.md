@@ -1,4 +1,4 @@
- 
+
 
 ```markdown
 # hip+ Advanced Concepts Example
