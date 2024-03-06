@@ -1,0 +1,41 @@
+// calculator.hip+
+
+// &Design
++
+    Colors: {
+        Primary# : "#3498db",
+        Background# : "#ecf0f1",
+        Text# : "#333"
+    },
+    Typography: {
+        FontFamily# : "Arial, sans-serif",
+        FontSize# : {
+            Heading1# : "2rem",
+            Body# : "1rem"
+        }
+    },
+    Alignment# : {
+        Vertical# : "Center",
+        Horizontal# : "Center"
+    },
+    Body# : {
+        Background# : "#fff",
+        Padding# : "20px",
+        Border# : "1px solid #ddd"
+    }
+///
+
+// &Text#
++
+    Description#: "A simple calculator app using hip+ language.",
+    Website#: "https://hippluslang.org"
+///
+
+// Function definition with type annotations
++function$ addNumbers(a#: int, b#: int +): int {
+    return a# + b#;
+}
+
+// Example usage
++let$ result#: int = addNumbers(5 +, 10 +);
++print$("Sum: " + result#);
