@@ -1,1 +1,3 @@
-hipplus run hipplus-cli.hip add 5 10
+ npm install
+ npm start calculate-factorial 5
+ npm start fetch-data https://api.hipplus.com/data
