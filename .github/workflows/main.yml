@@ -15,6 +15,12 @@ jobs:
 
     - name: Build and Publish hip+
       run: |
-        # Your build commands here
-        # Example: npm install -g hipplus-cli && hipplus build
-        
+        # Example for publishing and building hip+ using npm package manager
+- name: Publish and Build hip+
+  run: |
+    npm install -g hipplus-cli
+    hipplus build
+    hipplus publish --token ${{ secrets.YOUR_TOKEN }}
+- name: Notify on Completion
+  run: echo "hip+ has been successfully published and built."
+ 
