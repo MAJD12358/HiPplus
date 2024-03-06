@@ -1,0 +1,62 @@
+// hipplus-cli.hip+
+
+// Importing necessary libraries
+import "StandardLibrary.hip+";
+
+// &Design
++
+    Colors: {
+        Primary# : "#3498db",
+        Secondary# : "#2ecc71",
+        Background# : "#ecf0f1",
+        Text# : "#333"
+    }
+///
+
+// &Text#
++
+    Description#: "hip+ CLI - Command Line Interface for hip+ Language"
+///
+
+// &Commands#
++
+    Commands#: [
+        {
+            Name# : "calculate-factorial",
+            Description# : "Calculate the factorial of a number.",
+            Usage# : "hipplus-cli calculate-factorial <number>",
+            Example# : "hipplus-cli calculate-factorial 5"
+        },
+        {
+            Name# : "fetch-data",
+            Description# : "Fetch data from a specified URL.",
+            Usage# : "hipplus-cli fetch-data <url>",
+            Example# : "hipplus-cli fetch-data https://api.example.com/data"
+        }
+    ]
+///
+
+// &Design
++
+    Typography: {
+        FontFamily# : "Roboto",
+        FontSize# : {
+            Heading1# : "2rem",
+            Heading2# : "1.5rem",
+            Body# : "1rem"
+        }
+    },
+    Body# : {
+        Background# : "#fff",
+        Margin# : "0",
+        Padding# : "10px",
+        Border# : "1px solid #ddd"
+    }
+///
+
+// &UIElements#
++
+    Title#: "hip+ CLI Documentation",
+    Header#: "Welcome to the hip+ Command Line Interface (CLI) Documentation!",
+    Button#: ["Primary", "Secondary", "Floating"]
+///
