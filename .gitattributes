@@ -1,0 +1,4 @@
+# .gitattributes
+
+*.hip+ linguist-language=hip+
+*.hip+ linguist-color=#FFA500
