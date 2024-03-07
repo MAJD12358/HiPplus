@@ -503,10 +503,10 @@ HiPplus is an advanced programming language designed to empower developers with 
 ## Getting Started
 To start using HiPplus, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/hippluslang/hipplus.git`
-2. Install dependencies: `npm install`
-3. Build the application: `npm run build`
-4. Run the application: `npm start`
+1. Clone the repository: `git clone https://github.com/MAJD12358/hipplus.git`
+2. Install dependencies: `hipp install`
+3. Build the application: `plus run build`
+4. Run the application: `hipplus start`
 
 For more detailed information, refer to the documentation.
 
