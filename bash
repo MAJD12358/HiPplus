@@ -1,8 +1,18 @@
- npm install
- npm start calculate-factorial 5
- npm start fetch-data https://api.hipplus.com/data
-# .gitattributes
-*.hip+ linguist-language=hip+
-*.hip+ linguist-color=#FFA500
-git add .
-git commit -m "Update linguist-color for hip+ language"
+#!/bin/bash
+echo "This is the executable file for hip+ language."
+# Library file 1: lib1.hip+
+function add(a, b) {
+    return a + b;
+}
+
+# Library file 2: lib2.hip+
+function multiply(a, b) {
+    return a * b;
+}# Tutorial 1: Basics.hip+
+print("Hello, hip+!");
+
+# Tutorial 2: Loops.hip+
+for i in range(5) {
+    print("Iteration:", i);
+}# Development Tool: HipDevStudio
+echo "HipDevStudio is a powerful IDE for hip+ language development."
