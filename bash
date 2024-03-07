@@ -16,3 +16,9 @@ for i in range(5) {
     print("Iteration:", i);
 }# Development Tool: HipDevStudio
 echo "HipDevStudio is a powerful IDE for hip+ language development."
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/MAJD12358/HiPplus
+git push -u origin main
