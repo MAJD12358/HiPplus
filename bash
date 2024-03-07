@@ -1,25 +1,15 @@
-#!/bin/bash
-echo "This is the executable file for hip+ language."
-# Library file 1: lib1.hip+
-function add(a, b) {
-    return a + b;
-}
+ # خطوة 1: نقل HiPplus.hip+ إلى مستودعك المحلي
+cp HiPplus.hip+ /path/to/your/repository
 
-# Library file 2: lib2.hip+
-function multiply(a, b) {
-    return a * b;
-}# Tutorial 1: Basics.hip+
-print("Hello, hip+!");
+# خطوة 2: إضافة وتعهد الملف
+cd /path/to/your/repository
+git add HiPplus.hip+
+git commit -m "Initial commit for HiPplus"
 
-# Tutorial 2: Loops.hip+
-for i in range(5) {
-    print("Iteration:", i);
-}# Development Tool: HipDevStudio
-echo "HipDevStudio is a powerful IDE for hip+ language development."
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/MAJD12358/HiPplus
-git push -u origin main
-cd HiPplus
+# خطوة 3: رفع الملفات إلى GitHub
+git push origin main
+# خطوة 4: تثبيت المترجم (فرضًا أن المترجم يسمى hipplus-compiler)
+npm install -g hipplus-compiler
+
+# خطوة 5: ترجمة الكود
+hipplus-compiler HiPplus.hip+
