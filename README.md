@@ -1,6 +1,6 @@
  
 ![HiPplus Logo](logo.png)
-## Getting Started
+ 
 
  
 
