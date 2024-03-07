@@ -1,7 +1,7 @@
  ```markdown
 # HiPplus Programming Language
 
-HiPplus is an advanced programming language designed for concurrent and functional development.
+HiPplus is an advanced and developer-friendly programming language designed for concurrent and functional development.
 
 ## Getting Started
 
@@ -38,6 +38,36 @@ Feel free to contribute to the development of HiPplus. Fork the repository and s
 
 [![HiPplus Logo](https://example.com/hipplus-logo.png)](https://example.com/hipplus-logo.png)
 
+## Example Code
+
+```hip+
+// HiPplus Example Code
+
+// Calculate factorial using recursion
+function calculateFactorial(n +) {
+    if (n <= 1 +) {
+        return 1;
+    } else {
+        return n * calculateFactorial(n - 1 +);
+    }
+}
+
+// Example usage
+let result = calculateFactorial(5 +);
+print("Factorial of 5: " + result);
+
+// Async function example
+async function fetchData(url +) {
+    let response = await fetch(url +);
+    let data = await response.json +();
+    return data;
+}
+
+// Example usage
+let apiData = fetchData("https://api.example.com/data" +);
+print("Fetched data: " + apiData);
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -45,4 +75,4 @@ This project is licensed under the [MIT License](LICENSE).
 All rights reserved. © 2024 HiPplus Development Team.
 ```
 
-يمكنك النقر على الرموز "+" لفتح وعرض المحتوى في أقسام "Founder's Package" و "Version 1.0.0"، وكذلك الصورة الخاصة بلغة HiPplus. يرجى استبدال الروابط والتفاصيل بالمعلومات الصحيحة لمشروع HiPplus الخاص بك.
+يرجى استبدال الروابط والتفاصيل بالمعلومات الصحيحة لمشروع HiPplus الخاص بك.
