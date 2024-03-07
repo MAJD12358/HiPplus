@@ -6,11 +6,10 @@
 
 ## GitHub Style Badges
 
-[![GitHub release](https://img.shields.io/github/release/MAJD12358/HiPplus.svg)](https://github.com/MAJD12358/HiPplus/releases)
+[![GitHub release](https://img.shields.io/github/release/MAJD12358/HiPplus.svg)](https://github.com/MAJD12358/HiPplus)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/MAJD12358/HiPplus.svg)](https://github.com/MAJD12358/HiPplus)
 
-## Founder's Package
-
+ 
 - [![HiPplus Founder's Package](https://img.shields.io/badge/HiPplus-Founder's%20Package-blue)](https://github.com/MAJD12358/HiPplus/packages/123456)
   - Include advanced features for concurrent and functional programming.
 
