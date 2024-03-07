@@ -580,4 +580,57 @@ If you want to contribute to HiPplus, please follow the contribution guidelines 
 
 ## License
 HiPplus is licensed under the MIT License. Read the [LICENSE](LICENSE) file for more details.
+<details>
+<summary>HiPplus</summary>
+بالتأكيد، يمكنك إنشاء ملف README.md لتوفير تفاصيل حول تكوين HiPplus. فيما يلي مثال على كيفية بناء هذا الملف:
+<details>
+<summary> HiPplus - دليل التكوين </summary>
 
+```markdown
+# HiPplus - دليل التكوين
+
+## مقدمة
+
+HiPplus هي لغة برمجة متقدمة تتيح للمطورين الاستفادة من مزايا التبريج المتقدم والبرمجة الوظيفية. يقدم هذا الدليل تفاصيل حول كيفية تكوين بيئة HiPplus وبدء العمل بها.
+
+## محتويات
+
+1. [تحميل وتثبيت](#تحميل-وتثبيت)
+2. [تكوين HiPDevStudio](#تكوين-hipdevstudio)
+3. [استخدام HiPplusPackageManager](#استخدام-hippluspackagemanager)
+
+## تحميل وتثبيت
+
+للبدء مع HiPplus، يجب أولاً تحميل وتثبيت المترجم الخاص به. يمكنك العثور على أحدث إصدار على [صفحة التحميل](https://hippluslang.org/download).
+
+بعد التحميل، قم بتثبيت HiPplus على نظام التشغيل الخاص بك.
+
+```bash
+$ sudo ./install-hipplus.sh
+```
+
+## تكوين HiPDevStudio
+
+HiPDevStudio هي بيئة تطوير متكاملة مصممة خصيصًا لتطوير برامج HiPplus. لتكوينها:
+
+1. قم بتثبيت HiPDevStudio من [موقع التنزيل الرسمي](https://hipplusdevstudio.org/download).
+2. فتح HiPDevStudio وانتقل إلى "File" > "Preferences".
+3. في القائمة الجانبية، اختر "HiPplus" وقم بتكوين الإعدادات وفقًا لاحتياجات مشروعك.
+
+## استخدام HiPplusPackageManager
+
+HiPplusPackageManager هو أداة لإدارة الحزم والمكتبات في مشروعات HiPplus. يمكنك تثبيت الحزم بسهولة باستخدام الأمر:
+
+```bash
+$ hipplus-package install <package-name>
+```
+<details>
+<summary>المعلومات </summary>
+للمزيد من المعلومات حول استخدام HiPplusPackageManager، يُرجى الرجوع إلى [التوثيق الرسمي](https://hippluslang.org/packages).
+
+---
+
+هذا الدليل يوفر نظرة عامة على كيفية تكوين HiPplus والبدء في استخدامها. للمزيد من التفاصيل والأمثلة، يرجى مراجعة [مستندات اللغة](https://hippluslang.org/docs).
+```
+
+يمكنك تخصيص هذا الملف بحسب احتياجاتك وتوفير معلومات إضافية حسب متطلبات تكوين HiPplus في مشروعك.
