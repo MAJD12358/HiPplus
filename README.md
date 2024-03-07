@@ -491,3 +491,12 @@ apiData#.then(data => <print# "Fetched data: " + data#>);
 
 </details>
  
+1. Clone the repository: `git clone https://github.com/hippluslang/hipplus.git`
+2. Install dependencies: `npm install`
+3. Build the application: `npm run build`
+4. Run the application: `npm start`
+5. ## Documentation
+Read the [documentation](DOCS.md) for in-depth details about HiPplus features, syntax, and advanced usage.
+
+## Contributing
+If you want to contribute to HiPplus, please follow the [contribution guidelines](CONTRIBUTING.md).
