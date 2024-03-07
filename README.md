@@ -1,8 +1,5 @@
- ```markdown
-# HiPplus Programming Language
-
-HiPplus is a programming language designed for advanced and concurrent development.
-
+ 
+![HiPplus Logo](logo.png)
 ## Getting Started
 
 1. **Clone the repository:**
@@ -26,10 +23,6 @@ HiPplus is a programming language designed for advanced and concurrent developme
 - [![HiPplus v1.0.0](https://img.shields.io/badge/HiPplus-v1.0.0-green)](https://github.com/MAJD12358/HiPplus/releases/tag/v1.0.0)
   - Initial release.
 
-## Language Image
-
-![HiPplus Logo](logo.png)
-
 ## Contribution
 
 Feel free to contribute to the development of HiPplus. Fork the repository and submit pull requests.
@@ -37,6 +30,4 @@ Feel free to contribute to the development of HiPplus. Fork the repository and s
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-يرجى استبدال الروابط والتفاصيل بالمعلومات الصحيحة لمشروع HiPplus الخاص بك.
+``` 
